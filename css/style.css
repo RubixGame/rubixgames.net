@@ -1,0 +1,255 @@
+:root {
+    --pal1: #ffffff;
+    --pal2: #000000;
+    --pal3: #222222;
+    --pal4: #333333;
+    --pal5: #404040;
+    --pal6: #505050;
+    --rubixblue: #b6f2ff;
+    --rubixblue2: #66738a;
+    --rubixblue2-dark: #414b5e;
+    --bar: 60px;
+}
+
+* {
+    max-width: 100vw;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    top: var(--bar);
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    background: #222222;
+}
+
+.u-centered {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.bar {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: var(--bar);
+    background-color: #222222;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.15);
+}
+
+.bar__content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar__logo {
+    height: 170%;
+    content: url(/media/rubixlogoslim.png);
+    padding: 4px;
+    transition: 0.15s;
+    align-self: center;
+}
+
+.bar__logo:hover {
+    background: #333333;
+    border-radius: 10px;
+    scale: 90%;
+}
+
+#navtoggle {
+    display: none;
+}
+
+.bar__navtog {
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    transition: 0.15s;
+}
+
+.bar__navtog:hover {
+    background: #333333;
+    border-radius: 5px;
+}
+
+.nav {
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: -101vh;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - var(--bar));
+    padding: 32px;
+    background: #181818;
+    transition: all 200ms ease-in-out;
+}
+
+.nav__link {
+    width: 83%;
+    padding: 20px 10px;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #cecece;
+    border-bottom: 4px solid #505050;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.15s;
+}
+
+.nav__link:hover {
+    background: #252525;
+}
+
+.discord_a {
+    display: none;
+}
+
+.discord_b {
+    display: flex;
+}
+
+#navtoggle:checked ~ .nav {   
+    top: var(--bar)
+}
+
+.footer {
+    font-size: 15px;
+    padding: 20px 0;
+    line-height: 1.6;
+    background: #333333;
+}
+
+.footer__text {
+    padding: 3px 15px;
+    display: block;
+}
+
+.footer__text--tp {
+    opacity: 0.8;
+}
+
+.footer__hr {
+    height: 3px;
+    border: none;
+    border-radius: 6px;
+    background: #404040;
+}
+
+.footer__pages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__page {
+    font-size: 0.85em;
+    text-decoration: none;
+    color: #cecece;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.footer__page:hover {
+    color: #ffffff;
+    background: #2d2d2d;
+}
+
+.footer__socials {
+    left: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #2d2d2d;
+}
+
+.footer__link {
+    cursor: pointer;
+    color: #9f9f9f;
+    font-size: 1.9em;
+    padding: 0 5%;
+    transition: 0.15s;
+}
+
+.footer__link:hover {
+    background: #333333;
+}
+
+.footer__link:hover {
+    scale: 115%;
+}
+
+@media screen and (min-width: 700px) {
+    .bar__navtog {
+        display: none;
+    }
+
+    .nav {
+        z-index: 1;
+        display: initial;
+        position: static;
+        width: unset;
+        height: unset;
+        padding: unset;
+        background: transparent;
+    }
+
+    .nav__link {
+        align-items: center;
+        height: 62px;
+        cursor: pointer;
+        padding: 15px 12px;
+        font-size: 25px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .nav__pfp {
+        height: 25px;
+        width: 25px;
+        border: none;
+        border-radius: 50%;
+    }
+
+    .nav__link:hover {
+        background: #404040;
+        padding: 14px 8px;
+        font-size: 28px;
+    }
+
+    .discord_a {
+        display: inline;
+    }
+    
+    .discord_b {
+        display: none;
+    }
+
+    .footer__page {
+        font-size: 1em;
+        text-decoration: none;
+        color: #cecece;
+        padding: 7px 20px;
+        border-radius: 8px;
+    }
+}

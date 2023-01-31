@@ -1,0 +1,31 @@
+{
+    "team_tennis": [{
+        "owns": false,
+        "userdata": [{
+            "level": 0,
+            "net_worth": 0,
+            "badges": [0],
+            "avatar": [{
+                "headwear": 0,
+                "expresion": 0,
+                "top": 0,
+                "bottom": 0,
+                "footwear": 0,
+                "racket": 0,
+                "backwear": 0
+            }],
+            "owns": [{
+                "headwear": [0],
+                "expresions": [0],
+                "tops": [0],
+                "bottoms": [0],
+                "footwear": [0],
+                "rackets": [0],
+                "backwear": [0],
+                "venues": [0],
+                "balls": [0]
+            }],
+            "clubs": []
+        }]
+    }]
+}

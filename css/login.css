@@ -1,0 +1,104 @@
+:root {
+    --pal1: #ffffff;
+    --pal2: #000000;
+    --pal3: #222222;
+    --pal4: #333333;
+    --pal5: #404040;
+    --pal6: #505050;
+    --rubixblue: #b6f2ff;
+    --rubixblue2: #66738a;
+    --rubixblue2-dark: #414b5e;
+    --bar: 60px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 81vh;
+    background: linear-gradient(-45deg, rgba(16,16,16,1) 0%, rgba(37,37,37,1) 72%, rgba(51,51,51,1) 100%);
+}
+
+.login__container {
+    display: block;
+    background: #222222;
+    border: none;
+    border-radius: 30px;
+    padding: 26px;
+    padding-bottom: 60px;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login__header {
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.login__hr {
+    margin: 20px 0;
+    height: 3px;
+    border: none;
+    border-radius: 3px;
+    background: #404040;
+}
+
+.login__label, .login__input {
+    color: white;
+    font-size: 27px;
+    margin: 10px 0;
+}
+
+.login__input {
+    color: #9f9f9f;
+    margin-left: 10px;
+    text-indent: 5px;
+    font-size: 23px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #181818;
+}
+
+.login__err {
+    font-size: 22px;
+    color: #9f9f9f;
+    font-weight: 500;
+}
+
+.login__submit {
+    cursor: pointer;
+    margin: 25px 0 0 0;
+    font-family: inherit;
+    color: white;
+    background: #333333;
+    font-size: 25px;
+    padding: 8px 10px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.login__submit:hover {
+    background: green;
+}
+
+.login__reset {
+    cursor: pointer;
+    margin: 25px 0 0 0;
+    font-family: inherit;
+    color: white;
+    background: #333333;
+    font-size: 25px;
+    padding: 8px 10px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.login__reset:hover {
+    background: var(--pal7);
+}

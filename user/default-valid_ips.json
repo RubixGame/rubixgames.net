@@ -1,0 +1,11 @@
+{
+    "authorized_ips": [{
+        "0": [{
+            "ip": "",
+            "location": "",
+            "computer-name": "",
+            "authorized_on": "",
+            "last_used": ""
+        }]
+    }]
+}

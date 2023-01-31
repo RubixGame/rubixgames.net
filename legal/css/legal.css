@@ -1,0 +1,68 @@
+:root {
+    --pal1: #ffffff;
+    --pal2: #000000;
+    --pal3: #222222;
+    --pal4: #333333;
+    --pal5: #404040;
+    --pal6: #505050;
+    --rubixblue: #b6f2ff;
+    --rubixblue2: #66738a;
+    --rubixblue2-dark: #414b5e;
+    --bar: 60px;
+}
+
+.legal__header > h1 {
+    margin: 0 0;
+}
+
+.legal__BIG {
+    margin: 0 0;
+    font-size: 65px;
+    font-family: "Galiver Sans", sans-serif;
+}
+
+.legal__header > .legal__BIG > i {
+    color: #b6f2ff;
+    font-style: normal;
+}
+
+.legal__header > .legal__BIG > red {
+    color: #f3511e;
+}
+
+.legal__header > .legal__BIG > blue {
+    color: #81affd;
+}
+
+.legal__header > .legal__BIG > white {
+    color: #b6f2ff;
+}
+
+.legal__header > .legal__BIG > green {
+    color: #8ac24a;
+}
+
+.legal__header > .legal__BIG > yellow {
+    color: #feed58;
+}
+
+.legal__header > .legal__BIG > orange {
+    color: #fca526;
+}
+
+.legal__header {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background: #1c1c1c;
+}
+
+.legal__header > h2 > i {
+    color: #b4b4b4;
+}
+
+.legal__dec {
+    display: flex;
+    background-image: url("../../media/monocube.png");
+    height: 65vh;
+}

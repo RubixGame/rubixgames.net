@@ -1,0 +1,52 @@
+:root {
+    --pal1: #ffffff;
+    --pal2: #000000;
+    --pal3: #222222;
+    --pal4: #333333;
+    --pal5: #404040;
+    --pal6: #505050;
+    --rubixblue: #b6f2ff;
+    --rubixblue2: #66738a;
+    --rubixblue2-dark: #414b5e;
+    --bar: 60px;
+}
+
+.error {
+    font-size: 20px;
+    color: #acacac;
+}
+
+.error__header {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 5px 0;
+}
+
+.error__img {
+    width: 40%;
+    -webkit-filter: invert(23%);
+}
+
+.error > p {
+    background: #191919;
+    border: none;
+    border-radius: 20px;
+    padding: 40px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.error > p > a {
+    padding: 5px 20px 8px 20px;
+    color: #b6f2ff;
+    transition: 0.15s;
+}
+
+.error > p > a:hover {
+    color: white;
+    background: #333333;
+    border: none;
+    border-radius: 5px;
+}

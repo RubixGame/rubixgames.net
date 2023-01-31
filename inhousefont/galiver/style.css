@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Galiver Sans';
+    src: local('Galiver Sans Bold'), local('Galiver-Sans-Bold'),
+        url('GaliverSans-Bold.woff2') format('woff2'),
+        url('GaliverSans-Bold.woff') format('woff'),
+        url('GaliverSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

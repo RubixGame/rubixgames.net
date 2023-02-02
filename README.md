@@ -1,5 +1,4 @@
-<body>
-    <style>
+<style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
         body {
@@ -17,6 +16,7 @@
             border-radius: 4px;
         }
     </style>
+<body>
     <header>
         <h1><b>The Rubix Games Website</b></h1>
         <h2><a>@http://www.rubixgames.net</a></h2>
